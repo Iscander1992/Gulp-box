@@ -1,0 +1,22 @@
+{
+  "name": "box",
+  "description": "",
+  "main": "",
+  "authors": [
+    "'iscander1992' <soccer-92@ukr.net>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-scss": "*",
+    "jquery": "*"
+  }
+}

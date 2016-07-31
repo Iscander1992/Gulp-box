@@ -1,0 +1,29 @@
+
+@mixin min-media($min){
+	@media only screen and (min-width: #{$min}px) {
+		@content;
+	}
+}
+
+@mixin max-media($max){
+	@media only screen and (max-width: #{$max - 1}px) {
+		@content;
+	}
+}
+
+@mixin media-range($min, $max){
+	@media only screen and (min-width: #{$min}px) and (max-width: #{$max - 1}px){
+		@content;
+	}
+}
+
+@mixin em($fz){
+	font-size: ($fz / 16)+em;
+}
+
+@mixin placeholder {
+	&::-webkit-input-placeholder {@content}
+	&:-moz-placeholder           {@content}
+	&::-moz-placeholder          {@content}
+	&:-ms-input-placeholder      {@content}
+}

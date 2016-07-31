@@ -1,0 +1,30 @@
+{
+  "name": "box",
+  "version": "1.0.0",
+  "description": "box",
+  "dependencies": {
+    "path": "*",
+    "gulp": "*",
+    "gulp-sass": "*",
+    "gulp-cssmin": "*",
+    "gulp-concat-css": "*",
+    "gulp-watch": "*",
+    "gulp-autoprefixer":"*",
+    "gulp-preprocess":"*",
+    "gulp-rename":"*",
+    "gulp-pxtorem":"*",
+    "gulp-image": "*",
+    "gulp-uglify": "*",
+    "gulp-concat": "*",
+    "gulp-copy": "*",
+    "browser-sync": "*",
+    "gulp-notify": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-babel": "*",
+    "babel-preset-es2015": "*",
+    "gulp.spritesmith": "*",
+    "run-sequence": "*"
+  },
+  "author": "",
+  "license": "ISC"
+}
